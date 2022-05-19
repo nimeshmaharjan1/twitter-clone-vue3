@@ -1,7 +1,7 @@
 <template>
   <header class="d-flex align-items-center">
     <div
-      class="container-fluid d-flex align-items-center justify-content-between"
+      class="container-fluid mx-2 d-flex align-items-center justify-content-between"
     >
       <h1 class="title">Twitter</h1>
       <h1 class="username">{{ username }}</h1>
@@ -27,7 +27,7 @@ header {
     margin-bottom: 0;
   }
   .username {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
     font-family: var(--title-font);
   }

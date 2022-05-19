@@ -5,6 +5,7 @@
   --title-font: "Nunito";
   --transition: 0.2s ease;
   --bg: #e91e63;
+  --bg-variant: #370818;
 }
 * {
   line-height: 1.9em;
@@ -43,18 +44,24 @@ label {
   font-family: var(--title-font);
   font-weight: 400;
 }
-
-.tweets-wrapper .card {
-  transition: var(--transition);
+.tweets-wrapper {
+  .card {
+    transition: var(--transition);
+  }
+  &:hover {
+    scale: (1.1, 1.1);
+  }
+  .username {
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+  .content {
+    font-size: 0.9rem;
+    font-family: var(--title-font);
+  }
 }
-.tweets-wrapper .card:hover {
-  scale: (1.1, 1.1);
-}
-.tweets-wrapper .username {
-  font-size: 0.7rem;
-  font-weight: bold;
-}
-.tweets-wrapper .content {
-  font-size: 0.9rem;
-  font-family: var(--title-font);
+.btn {
+  background-color: var(--bg) !important;
+  border: 0.5px solid var(--bg-variant) !important;
+  color: white !important;
 }
