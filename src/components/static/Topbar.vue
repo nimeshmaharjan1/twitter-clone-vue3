@@ -3,7 +3,7 @@
     <div
       class="container-fluid mx-2 d-flex align-items-center justify-content-between"
     >
-      <h1 class="title">Twitter</h1>
+      <router-link to="/"> <h1 class="title">Twitter</h1></router-link>
       <h1 class="username">{{ username }}</h1>
     </div>
   </header>

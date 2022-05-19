@@ -30,6 +30,6 @@ const generateParent = async () => {
   const jsonData = await data.json();
   const pokemonData = await wholeData.json();
   pokemon.value = jsonData;
-  console.log("Pokemons: ", pokemonData);
+  // console.log("Pokemons: ", pokemonData);
 };
 </script>
