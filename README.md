@@ -1,4 +1,4 @@
-# twit
+# Twitter Clone with Vue 3, Vue Router 4 and Vuex
 
 This template should help get you started developing with Vue 3 in Vite.
 
