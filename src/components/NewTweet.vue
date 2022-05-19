@@ -40,7 +40,7 @@
   </form>
 </template>
 <script>
-import { reactive, computed } from "@vue/reactivity";
+import { reactive, computed } from "vue";
 export default {
   setup(props, context) {
     const state = reactive({
